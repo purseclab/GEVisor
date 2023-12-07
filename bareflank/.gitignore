@@ -1,0 +1,60 @@
+#
+# Bareflank Hypervisor
+# Copyright (C) 2015 Assured Information Security, Inc.
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+build/
+build_ubuntu17_10/
+ubuntu-artful-17.10-cloudimg-console.log
+doc
+doxygen_warnings.txt
+.vagrant
+.astyle_results.txt
+.clang_tidy_results.txt
+.vscode/
+.DS_Store
+._.DS_Store
+config.cmake
+
+bfdriver/src/.common.o.cmd
+bfdriver/src/platform/linux/.bareflank.ko.cmd
+bfdriver/src/platform/linux/.bareflank.mod.o.cmd
+bfdriver/src/platform/linux/.bareflank.o.cmd
+bfdriver/src/platform/linux/.cache.mk
+bfdriver/src/platform/linux/.entry.o.cmd
+bfdriver/src/platform/linux/.platform.o.cmd
+bfdriver/src/platform/linux/.tmp_versions/
+bfdriver/src/platform/linux/.vmcall.o.cmd
+bfdriver/src/platform/linux/Module.symvers
+bfdriver/src/platform/linux/bareflank.ko
+bfdriver/src/platform/linux/bareflank.mod.c
+bfdriver/src/platform/linux/bareflank.mod.o
+bfdriver/src/platform/linux/bareflank.o
+bfdriver/src/platform/linux/entry.o
+bfdriver/src/platform/linux/modules.order
+bfdriver/src/platform/linux/platform.o
+bfdriver/src/platform/linux/vmcall.o
+bfdriver/src/platform/linux/.cache.mk
+bfdriver/src/common.o
+
+bfdriver/src/platform/windows/.vs/
+bfdriver/src/platform/windows/bareflank.VC.db
+bfdriver/src/platform/windows/x64/
+
+bfdriver/src/platform/efi/*.efi
+bfdriver/src/platform/efi/src/*.o
+bfdriver/src/platform/efi/src/gnuefi/*.o
+bfdriver/src/platform/efi/module/*
