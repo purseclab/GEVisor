@@ -1,6 +1,7 @@
 # GEVisor
 
 GEVisor is a small hypervisor to build a trusted GPU execution environment.
+
 For paper: Building GPU TEEs using CPU Secure Enclaves with GEVisor
 
 ## Dependencies:
@@ -17,15 +18,10 @@ GPU: NVIDIA GeForce GTX Titan Black, NVIDIA GeForce GT 420
 ## Citation:
 
 @inproceedings{wu2023building,
-
   title={Building GPU TEEs using CPU Secure Enclaves with GEVisor},
-
   author={Wu, Xiaolong and Tian, Dave Jing and Kim, Chung Hwan},
-
   booktitle={Proceedings of the 2023 ACM Symposium on Cloud Computing},
-
   pages={249--264},
-
   year={2023}
 }
 
